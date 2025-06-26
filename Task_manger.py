@@ -2,7 +2,7 @@ num_of_tasks = int(input("Enter The Number Of Tasks: "))
 my_tasks = []
 for i in range(num_of_tasks):
     title = input("Enter The Title Of Task: ")
-    duration = duration = int(input("Enter The Duration Of The Task: "))
+    duration =  int(input("Enter The Duration Of The Task: "))
     priority = int(input("Enter The Priority Of This Task: "))  
     my_tasks.append((priority, title, duration))
 
